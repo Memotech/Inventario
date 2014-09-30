@@ -121,5 +121,10 @@
   		<artifactId>spring-webmvc</artifactId>
   		<version>4.1.0.RELEASE</version>
   	</dependency>
+  	<dependency>
+  		<groupId>javax.servlet.jsp</groupId>
+  		<artifactId>jsp-api</artifactId>
+  		<version>2.1</version>
+  	</dependency>
   </dependencies>
 </project>
