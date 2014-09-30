@@ -124,11 +124,6 @@ public class AreaDAO extends BaseHibernateDAO {
 			throw re;
 		}
 	}
-//dfgfgdfgdg
-//gd
-//f
-//gd
-//fgd
 
 	public void attachDirty(Area instance) {
 		log.debug("attaching dirty Area instance");
@@ -140,14 +135,6 @@ public class AreaDAO extends BaseHibernateDAO {
 			throw re;
 		}
 	}
-	
-//	sdfhdfhsgjfffs
-//	sdf
-//	sd
-//	f
-//	sdf
-//	s
-//	df
 
 	public void attachClean(Area instance) {
 		log.debug("attaching clean Area instance");
