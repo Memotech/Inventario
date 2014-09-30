@@ -113,6 +113,140 @@ public class AreaDAO extends BaseHibernateDAO {
 		}
 	}
 
+//	public Area merge(Area detachedInstance) {
+//		log.debug("merging Area instance");
+//		try {
+//			Area result = (Area) getSession().merge(detachedInstance);
+//			log.debug("merge successful");
+//			return result;
+//		} catch (RuntimeException re) {
+//			log.error("merge failed", re);
+//			throw re;
+//		}
+//	}
+//	public Area merge(Area detachedInstance) {
+//	log.debug("merging Area instance");
+//	try {
+//		Area result = (Area) getSession().merge(detachedInstance);
+//		log.debug("merge successful");
+//		return result;
+//	} catch (RuntimeException re) {
+//		log.error("merge failed", re);
+//		throw re;
+//	}
+//}
+
+//	public Area merge(Area detachedInstance) {
+//	log.debug("merging Area instance");
+//	try {
+//		Area result = (Area) getSession().merge(detachedInstance);
+//		log.debug("merge successful");
+//		return result;
+//	} catch (RuntimeException re) {
+//		log.error("merge failed", re);
+//		throw re;
+//	}
+//}
+
+//	public Area merge(Area detachedInstance) {
+//	log.debug("merging Area instance");
+//	try {
+//		Area result = (Area) getSession().merge(detachedInstance);
+//		log.debug("merge successful");
+//		return result;
+//	} catch (RuntimeException re) {
+//		log.error("merge failed", re);
+//		throw re;
+//	}
+//}
+
+//	public Area merge(Area detachedInstance) {
+//	log.debug("merging Area instance");
+//	try {
+//		Area result = (Area) getSession().merge(detachedInstance);
+//		log.debug("merge successful");
+//		return result;
+//	} catch (RuntimeException re) {
+//		log.error("merge failed", re);
+//		throw re;
+//	}
+//}
+
+//	public Area merge(Area detachedInstance) {
+//	log.debug("merging Area instance");
+//	try {
+//		Area result = (Area) getSession().merge(detachedInstance);
+//		log.debug("merge successful");
+//		return result;
+//	} catch (RuntimeException re) {
+//		log.error("merge failed", re);
+//		throw re;
+//	}
+//}
+
+//	public Area merge(Area detachedInstance) {
+//	log.debug("merging Area instance");
+//	try {
+//		Area result = (Area) getSession().merge(detachedInstance);
+//		log.debug("merge successful");
+//		return result;
+//	} catch (RuntimeException re) {
+//		log.error("merge failed", re);
+//		throw re;
+//	}
+//}
+
+//	public Area merge(Area detachedInstance) {
+//	log.debug("merging Area instance");
+//	try {
+//		Area result = (Area) getSession().merge(detachedInstance);
+//		log.debug("merge successful");
+//		return result;
+//	} catch (RuntimeException re) {
+//		log.error("merge failed", re);
+//		throw re;
+//	}
+//}
+
+//	public Area merge(Area detachedInstance) {
+//	log.debug("merging Area instance");
+//	try {
+//		Area result = (Area) getSession().merge(detachedInstance);
+//		log.debug("merge successful");
+//		return result;
+//	} catch (RuntimeException re) {
+//		log.error("merge failed", re);
+//		throw re;
+//	}
+//}
+
+//	public Area merge(Area detachedInstance) {
+//	log.debug("merging Area instance");
+//	try {
+//		Area result = (Area) getSession().merge(detachedInstance);
+//		log.debug("merge successful");
+//		return result;
+//	} catch (RuntimeException re) {
+//		log.error("merge failed", re);
+//		throw re;
+//	}
+//}
+
+//	public Area merge(Area detachedInstance) {
+//	log.debug("merging Area instance");
+//	try {
+//		Area result = (Area) getSession().merge(detachedInstance);
+//		log.debug("merge successful");
+//		return result;
+//	} catch (RuntimeException re) {
+//		log.error("merge failed", re);
+//		throw re;
+//	}
+//}
+
+	
+
+
 	public Area merge(Area detachedInstance) {
 		log.debug("merging Area instance");
 		try {
@@ -135,6 +269,14 @@ public class AreaDAO extends BaseHibernateDAO {
 			throw re;
 		}
 	}
+	
+//	sdfhdfhsgjfffs
+//	sdf
+//	sd
+//	f
+//	sdf
+//	s
+//	df
 
 	public void attachClean(Area instance) {
 		log.debug("attaching clean Area instance");
@@ -148,4 +290,6 @@ public class AreaDAO extends BaseHibernateDAO {
 	}
 }
 
-//probando
+
+//tumama
+//tumama
