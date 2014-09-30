@@ -147,5 +147,3 @@ public class AreaDAO extends BaseHibernateDAO {
 		}
 	}
 }
-
-//probando
