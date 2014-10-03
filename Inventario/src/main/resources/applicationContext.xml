@@ -13,7 +13,18 @@
 						http://www.springframework.org/schema/tx/spring-tx-3.1.xsd">
 
 	<tx:annotation-driven/>
-	<context:component-scan base-package="mx.gob.salud.seguro.popular.inventario.dao"/>
-	<context:component-scan base-package="mx.gob.salud.seguro.popular.inventario.dto"/>
-
+	
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+		<property name="hibernate.connection.driver_class">oracle.jdbc.OracleDriver</property>
+        <property name="hibernate.connection.password">admin</property>
+        <property name="hibernate.connection.url">jdbc:oracle:thin:@localhost:1521:xe</property>
+        <property name="hibernate.connection.username">inventarioadmin</property>
+        <mapping package="mx.gob.salud.seguro.popular.cnpss.inventaio.dto"/>
+	</bean>
+	<bean id="transactionManager"
+		class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+ 
 </beans>

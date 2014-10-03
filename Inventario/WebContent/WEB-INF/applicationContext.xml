@@ -14,9 +14,6 @@
 
 	<tx:annotation-driven/>
 	
-	<context:component-scan base-package="mx.gob.salud.seguro.popular.inventario.dao"/>
-	<context:component-scan base-package="mx.gob.salud.seguro.popular.inventario.dto"/>
-	
 	<bean id="sessionFactory"
 		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
 		<property name="hibernate.connection.driver_class">oracle.jdbc.OracleDriver</property>
